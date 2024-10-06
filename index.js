@@ -38,7 +38,7 @@
             break;
     }
 
-    const saldo = balance(wins,lose);
-    console.log(`O Herói tem um saldo de ${saldo} e está no nível de ${level}.`);
+    const result = balance(wins,lose);
+    console.log(`O Herói tem um saldo de ${result} e está no nível de ${level}.`);
 
 
